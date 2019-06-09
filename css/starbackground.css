@@ -1,0 +1,48 @@
+body {
+    background-image: url("../images/starrybgV1.png");
+    background-repeat: repeat;
+}
+h1 {
+	font-family: silkscreennormal, Geneva, sans-serif;
+	font-size:90px;
+	color: #ffffff;
+}
+p {
+	font-family: silkscreennormal, Geneva, sans-serif;
+    font-size:16px;
+    color:#ffffff;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+mark.red {
+    color:#ff0000;
+    background: none;
+}
+
+mark.blue {
+    color:#0000A0;
+    background: none;
+}
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    
+}
+
+@font-face {
+    font-family: 'silkscreennormal';
+    src: url('font/slkscr-webfont.woff2') format('woff2'),
+         url('font/slkscr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
