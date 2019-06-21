@@ -3,10 +3,10 @@ body {
     background-repeat: repeat;
 }
 h1 {
-	font-family: starogen_fontregular;
+	font-family: starogen_font_widerregular;
 	text-align: center;
 	font-size:100px;
-	letter-spacing: 12px;
+	/*letter-spacing: 12px;*/
 	font-weight: normal;
 	color: #ffffff;
 	text-shadow:
@@ -16,7 +16,7 @@ h1 {
     1px 1px 0 #000000;
 }
 p {
-	font-family: starogen_fontregular;
+	font-family: starogen_font_widerregular;
     font-size:20px;
     color:#ffffff;
 	text-shadow:
@@ -61,9 +61,9 @@ mark.blue {
 
 
 @font-face {
-    font-family: 'starogen_fontregular';
-    src: url('font/starogen-font-webfont.woff2') format('woff2'),
-         url('font/starogen-font-webfont.woff') format('woff');
+    font-family: 'starogen_font_widerregular';
+    src: url('font/wider/starogen-font-wider-webfont.woff2') format('woff2'),
+         url('font/wider/starogen-font-wider-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -76,12 +76,13 @@ mark.blue {
 	width: 100%;
 	text-align: center;
 	align: center;
+	line-height: 1px;
 }
 
 
 #menu a {
     color: #ffffff;
-	font-family: starogen_fontregular;
+	font-family: starogen_font_widerregular;
 	font-size: 20px;
     text-align: center;
 	text-decoration: none;
@@ -91,16 +92,21 @@ mark.blue {
 	
 }
 #menu a:hover {
-	position: relative;
-	top: 2px;
-	padding: 12px 16px;
-	border-bottom: 2px solid #ffffff;
+    color: black;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+    
 }
 #menu a.current {
-    position: relative;
-	top: 4px;
-	padding: 10px 16px;
-	border-bottom: 4px solid #ffffff;
+    color: black;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
 }
 
 #menu a.invertedstroketext {
@@ -119,6 +125,7 @@ mark.blue {
     width: 70%;
 	
 }
+
 #menu li {
 	/*border-right: 4px solid #000000;*/
 	display: inline-block;

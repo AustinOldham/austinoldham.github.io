@@ -2,7 +2,7 @@
 font-building tool.
 This font was created by “AustinOldham”.
 This font has a homepage where this archive and other versions may be found:
-https://fontstruct.com/fontstructions/show/1643854
+https://fontstruct.com/fontstructions/show/1645518
 
 Try Fontstruct at https://fontstruct.com
 It’s easy and it’s fun.
