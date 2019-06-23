@@ -92,21 +92,10 @@ mark.blue {
 	
 }
 #menu a:hover {
-    color: black;
-    text-shadow:
-    -1px -1px 0 #ffffff,
-    1px -1px 0 #ffffff,
-    -1px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;
-    
+    color: #7CFC00;
 }
 #menu a.current {
-    color: black;
-    text-shadow:
-    -1px -1px 0 #ffffff,
-    1px -1px 0 #ffffff,
-    -1px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;
+    color: #428600;
 }
 
 #menu a.invertedstroketext {
