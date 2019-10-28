@@ -153,3 +153,9 @@ mark.blue {
 	/*border-right: 4px solid #000000;*/
 	display: inline-block;
 }
+
+img {
+	border-width: 2px;
+	border-color: White;
+	border-style: solid;
+}
